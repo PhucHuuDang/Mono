@@ -3,9 +3,25 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@workspace/ui/*": ["./src/*"]
-    }
+      "@workspace/ui/*": ["./src/*"],
+      "@workspace/ui/components/*": ["./src/components/*"],
+      "@workspace/ui/lib/*": ["./src/lib/*"],
+      "@workspace/ui/hooks/*": ["./src/hooks/*"],
+      "@workspace/ui/plugins/*": ["./src/plugins/*"],
+      "@workspace/ui/styles/*": ["./src/styles/*"]
+    },
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "outDir": "dist",
+    "rootDir": "src"
   },
-  "include": ["."],
+  // "include": ["."],
+  "include": [
+    "next-env.d.ts",
+    "next.config.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
   "exclude": ["node_modules", "dist"]
 }
