@@ -46,13 +46,20 @@ import {
 import { type PlateEditor, useEditorRef } from "platejs/react";
 
 import { cn } from "@workspace/ui/lib/utils";
-import { AIChatEditor } from "./ai-chat-editor.js";
-import { Command, CommandGroup, CommandItem, CommandList } from "./command.js";
+import { AIChatEditor } from "@workspace/ui/components/ai-chat-editor";
+import {
+  Command,
+  CommandGroup,
+  CommandItem,
+  CommandList,
+} from "@workspace/ui/components/command";
 import { CommentPlugin } from "@platejs/comment/react";
-import { Button } from "./button.js";
-import { Popover, PopoverAnchor, PopoverContent } from "./popover.js";
-
-// import { AIChatEditor } from './ai-chat-editor';
+import { Button } from "@workspace/ui/components/button";
+import {
+  Popover,
+  PopoverAnchor,
+  PopoverContent,
+} from "@workspace/ui/components/popover";
 
 export function AIMenu() {
   const { api, editor } = useEditorPlugin(AIChatPlugin);

@@ -15,10 +15,9 @@ import {
   InlineComboboxGroup,
   InlineComboboxInput,
   InlineComboboxItem,
-} from "./inline-combobox.js";
-import { useDebounce } from "../lib/use-debounce.js";
+} from "@workspace/ui/components/inline-combobox";
+import { useDebounce } from "@workspace/ui/lib/use-debounce";
 0;
-
 export function EmojiInputElement(props: PlateElementProps) {
   const { children, editor, element } = props;
   const data = usePluginOption(EmojiPlugin, "data")!;

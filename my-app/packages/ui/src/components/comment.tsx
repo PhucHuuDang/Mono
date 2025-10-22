@@ -49,7 +49,7 @@ import {
   discussionPlugin,
 } from "@workspace/ui/plugins/discussion-kit";
 
-import { Editor, EditorContainer } from "./editor.js";
+import { Editor, EditorContainer } from "@workspace/ui/components/editor";
 
 export interface TComment {
   id: string;

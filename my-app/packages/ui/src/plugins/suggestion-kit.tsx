@@ -15,7 +15,7 @@ import {
   SuggestionLineBreak,
 } from "@workspace/ui/components/suggestion-node";
 
-import { discussionPlugin } from "./discussion-kit.js";
+import { discussionPlugin } from "@workspace/ui/plugins/discussion-kit";
 import type { SlatePlugin } from "platejs";
 
 export type SuggestionConfig = ExtendConfig<

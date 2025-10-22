@@ -32,7 +32,7 @@ import {
 } from "@workspace/ui/components/dropdown-menu";
 import { cn } from "@workspace/ui/lib/utils";
 
-import { ToolbarButton } from "./toolbar.js";
+import { ToolbarButton } from "@workspace/ui/components/toolbar";
 
 export function TableToolbarButton(props: DropdownMenuProps) {
   const tableSelected = useEditorSelector(

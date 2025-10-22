@@ -38,7 +38,7 @@ import {
   CommentCreateForm,
   formatCommentDate,
   TComment,
-} from "./comment.js";
+} from "@workspace/ui/components/comment";
 import {
   type TDiscussion,
   discussionPlugin,

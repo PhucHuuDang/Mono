@@ -1,27 +1,27 @@
 {
+  "$schema": "https://ui.shadcn.com/schema.json",
   "extends": "@workspace/typescript-config/react-library.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "zinc",
+    "cssVariables": true
+  },
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@/*": ["./*"],
       "@workspace/ui/*": ["./src/*"],
       "@workspace/ui/components/*": ["./src/components/*"],
       "@workspace/ui/lib/*": ["./src/lib/*"],
       "@workspace/ui/hooks/*": ["./src/hooks/*"],
       "@workspace/ui/plugins/*": ["./src/plugins/*"],
-      "@workspace/ui/styles/*": ["./src/styles/*"]
-    },
-    "module": "Node16",
-    "moduleResolution": "node16",
-    "outDir": "dist",
-    "rootDir": "src"
+      "@workspace/ui/styles/*": ["./src/styles/*"],
+      "@web/hooks/*": ["../../apps/web/hooks/*"]
+    }
   },
-  // "include": ["."],
-  "include": [
-    "next-env.d.ts",
-    "next.config.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": ["node_modules", "dist"]
+  "iconLibrary": "lucide"
 }

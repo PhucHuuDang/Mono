@@ -43,8 +43,8 @@ import {
   BlockSuggestionCard,
   isResolvedSuggestion,
   useResolveSuggestion,
-} from "./block-suggestion.js";
-import { Comment, CommentCreateForm } from "./comment.js";
+} from "@workspace/ui/components/block-suggestion";
+import { Comment, CommentCreateForm } from "@workspace/ui/components/comment";
 
 export const BlockDiscussion: RenderNodeWrapper<AnyPluginConfig> = (props) => {
   const { editor, element } = props;

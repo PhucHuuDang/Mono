@@ -35,10 +35,13 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@workspace/components/ui/dropdown-menu";
+} from "@workspace/ui/components/dropdown-menu";
 import { insertBlock, insertInlineElement } from "@workspace/ui/lib/transforms";
 
-import { ToolbarButton, ToolbarMenuGroup } from "./toolbar";
+import {
+  ToolbarButton,
+  ToolbarMenuGroup,
+} from "@workspace/ui/components/toolbar";
 
 type Group = {
   group: string;

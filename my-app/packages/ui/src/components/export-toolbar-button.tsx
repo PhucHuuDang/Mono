@@ -16,11 +16,12 @@ import {
   DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@workspace/components/ui/dropdown-menu";
+} from "@workspace/ui/components/dropdown-menu";
 import { BaseEditorKit } from "@workspace/ui/plugins/editor-base-kit";
 
-import { EditorStatic } from "./editor-static";
-import { ToolbarButton } from "./toolbar";
+import { EditorStatic } from "@workspace/ui/components/editor-static";
+import { ToolbarButton } from "@workspace/ui/components/toolbar";
+import { Options } from "html2canvas-pro";
 
 const siteUrl = "https://platejs.org";
 
@@ -29,7 +30,12 @@ export function ExportToolbarButton(props: DropdownMenuProps) {
   const [open, setOpen] = React.useState(false);
 
   const getCanvas = async () => {
-    const { default: html2canvas } = await import("html2canvas-pro");
+    // const { default: html2canvas } = await import("html2canvas-pro");
+    const html2canvas = (await import("html2canvas-pro"))
+      .default as unknown as (
+      element: HTMLElement,
+      options?: Partial<Options>
+    ) => Promise<HTMLCanvasElement>;
 
     const style = document.createElement("style");
     document.head.append(style);

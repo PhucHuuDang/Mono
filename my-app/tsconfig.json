@@ -1,9 +1,3 @@
 {
-  "extends": "@workspace/typescript-config/base.json",
-  "compilerOptions": {
-    "paths": {
-      "@workspace/components/*": ["packages/components/*"],
-      "@workspace/ui/*": ["packages/ui/src/*"]
-    }
-  }
+  "extends": "@workspace/typescript-config/base.json"
 }

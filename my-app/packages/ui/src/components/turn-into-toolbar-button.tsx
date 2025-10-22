@@ -31,10 +31,13 @@ import {
   DropdownMenuContent,
   DropdownMenuRadioItem,
   DropdownMenuTrigger,
-} from "@workspace/components/ui/dropdown-menu";
+} from "@workspace/ui/components/dropdown-menu";
 import { getBlockType, setBlockType } from "@workspace/ui/lib/transforms";
 
-import { ToolbarButton, ToolbarMenuGroup } from "./toolbar";
+import {
+  ToolbarButton,
+  ToolbarMenuGroup,
+} from "@workspace/ui/components/toolbar";
 
 export const turnIntoItems = [
   {
@@ -146,7 +149,7 @@ export function TurnIntoToolbarButton(props: DropdownMenuProps) {
           tooltip="Turn into"
           isDropdown
         >
-          {selectedItem.label}
+          {selectedItem?.label}
         </ToolbarButton>
       </DropdownMenuTrigger>
 
