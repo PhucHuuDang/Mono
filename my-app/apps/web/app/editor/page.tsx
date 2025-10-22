@@ -1,13 +1,18 @@
-import { Toaster } from "sonner";
+// import { PlateEditor } from "@/components/editor/plate-editor";
+import dynamic from "next/dynamic";
 
-import { PlateEditor } from "@/components/editor/plate-editor";
+const Editor = dynamic(
+  () =>
+    import("@/components/editor/plate-editor").then((mod) => mod.PlateEditor),
+  {
+    loading: () => <p>Loading...</p>,
+  }
+);
 
 export default function Page() {
   return (
     <div className="h-screen w-full">
-      <PlateEditor />
-
-      <Toaster />
+      <Editor />
     </div>
   );
 }

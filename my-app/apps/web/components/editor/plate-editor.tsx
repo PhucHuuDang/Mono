@@ -3,11 +3,17 @@
 import * as React from "react";
 
 import { normalizeNodeId } from "platejs";
-import { Plate, usePlateEditor } from "platejs/react";
+import {
+  createPlateEditor,
+  Plate,
+  PlateController,
+  usePlateEditor,
+} from "platejs/react";
 
 import { Editor, EditorContainer } from "@workspace/ui/components/editor";
 import { EditorKit } from "./editor-kit";
 import { SettingsDialog } from "./settings-dialog";
+import { BaseEditorKit } from "./editor-base-kit";
 // import { Editor, EditorContainer } from '@/components/editor';
 
 export function PlateEditor() {
@@ -16,12 +22,16 @@ export function PlateEditor() {
     value,
   });
 
+  // const editor = React.useMemo(
+  //   () => createPlateEditor({ plugins: EditorKit, value }),
+  //   []
+  // );
+
   return (
-    <Plate editor={editor}>
+    <Plate editor={editor} suppressInstanceWarning>
       <EditorContainer>
         <Editor variant="demo" />
       </EditorContainer>
-
       <SettingsDialog />
     </Plate>
   );

@@ -4,6 +4,8 @@
 
 import * as React from "react";
 
+import { UploadIcon } from "lucide-react";
+
 import { CopilotPlugin } from "@platejs/ai/react";
 import {
   Check,
@@ -416,18 +418,18 @@ export function SettingsDialog() {
           </div>
 
           {/* Upload Settings Group */}
-          {/* <div className="space-y-4">
+          <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="size-8 rounded-full bg-red-100 p-2 dark:bg-red-900">
-                <Upload className="size-4 text-red-600 dark:text-red-400" />
+                <UploadIcon className="size-4 text-red-600 dark:text-red-400" />
               </div>
               <h4 className="font-semibold">Upload</h4>
             </div>
 
             <div className="space-y-4">
-              {renderApiKeyInput('uploadthing', 'Uploadthing API key')}
+              {renderApiKeyInput("uploadthing", "Uploadthing API key")}
             </div>
-          </div> */}
+          </div>
 
           <Button size="lg" className="w-full" type="submit">
             Save changes
