@@ -208,7 +208,7 @@ export const Component = () => {
         animation: "moveBackground 60s linear infinite",
       }}
     >
-      <GlassFilter />
+      {/* <GlassFilter /> */}
 
       <div className="flex flex-col gap-6 items-center justify-center w-full">
         <GlassDock icons={dockIcons} href="https://x.com/notsurajgaud" />
@@ -218,8 +218,26 @@ export const Component = () => {
             <p>How can i help you today?</p>
           </div>
         </GlassButton>
-      </div>     
+      </div>
     </div>
   );
-}
+};
 
+export const LiquidGlass = () => {
+  return (
+    <div>
+      <GlassEffect>
+        <GlassFilter />
+        <div
+          className="absolute inset-0 z-0 overflow-hidden rounded-inherit rounded-3xl"
+          style={{
+            backdropFilter: "blur(3px)",
+            filter: "url(#glass-distortion)",
+            isolation: "isolate",
+          }}
+        ></div>
+        <div>Hello</div>
+      </GlassEffect>
+    </div>
+  );
+};

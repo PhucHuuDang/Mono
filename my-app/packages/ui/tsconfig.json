@@ -11,6 +11,8 @@
     "cssVariables": true
   },
   "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],

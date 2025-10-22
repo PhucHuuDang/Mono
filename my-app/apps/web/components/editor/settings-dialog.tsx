@@ -334,11 +334,12 @@ export function SettingsDialog() {
           variant="default"
           className={cn(
             "group fixed right-4 bottom-4 z-50 size-10 overflow-hidden",
-            "rounded-full shadow-md hover:shadow-lg"
+            "rounded-full shadow-md hover:shadow-lg cursor-pointer"
           )}
           // data-block-hide
         >
-          <Settings className="size-4" />
+          {/* reduce animation pin */}
+          <Settings className="size-4 transition-all duration-1000 ease-in-out animate-spin" />
         </Button>
       </DialogTrigger>
       <DialogContent>
