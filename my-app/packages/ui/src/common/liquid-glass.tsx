@@ -1,9 +1,10 @@
 "use client";
 
+import { cn } from "@workspace/ui/lib/utils";
 import React from "react";
 
 // Types
-interface GlassEffectProps {
+export interface GlassEffectProps {
   children: React.ReactNode;
   className?: string;
   style?: React.CSSProperties;
@@ -11,14 +12,14 @@ interface GlassEffectProps {
   target?: string;
 }
 
-interface DockIcon {
+export interface DockIcon {
   src: string;
   alt: string;
   onClick?: () => void;
 }
 
 // Glass Effect Wrapper Component
-const GlassEffect: React.FC<GlassEffectProps> = ({
+export const GlassEffect: React.FC<GlassEffectProps> = ({
   children,
   className = "",
   style = {},
@@ -72,7 +73,7 @@ const GlassEffect: React.FC<GlassEffectProps> = ({
 };
 
 // Dock Component
-const GlassDock: React.FC<{ icons: DockIcon[]; href?: string }> = ({
+export const GlassDock: React.FC<{ icons: DockIcon[]; href?: string }> = ({
   icons,
   href,
 }) => (
@@ -99,16 +100,19 @@ const GlassDock: React.FC<{ icons: DockIcon[]; href?: string }> = ({
 );
 
 // Button Component
-const GlassButton: React.FC<{ children: React.ReactNode; href?: string }> = ({
-  children,
-  href,
-}) => (
+export const GlassButton: React.FC<{
+  children: React.ReactNode;
+  href?: string;
+  isScale?: boolean;
+}> = ({ children, href, isScale }) => (
   <GlassEffect
     href={href}
     className="rounded-3xl px-10 py-6 hover:px-11 hover:py-7 hover:rounded-4xl overflow-hidden"
   >
     <div
-      className="transition-all duration-700 hover:scale-95"
+      className={cn(
+        `"transition-all duration-700 ${isScale && "hover:scale-95"}"`
+      )}
       style={{
         transitionTimingFunction: "cubic-bezier(0.175, 0.885, 0.32, 2.2)",
       }}
@@ -119,7 +123,7 @@ const GlassButton: React.FC<{ children: React.ReactNode; href?: string }> = ({
 );
 
 // SVG Filter Component
-const GlassFilter: React.FC = () => (
+export const GlassFilter: React.FC = () => (
   <svg style={{ display: "none" }}>
     <filter
       id="glass-distortion"
@@ -203,10 +207,11 @@ export const Component = () => {
   return (
     <div
       className="min-h-screen h-full flex items-center justify-center font-light relative overflow-hidden w-full"
-      style={{
-        background: `url("https://images.unsplash.com/photo-1432251407527-504a6b4174a2?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center center`,
-        animation: "moveBackground 60s linear infinite",
-      }}
+      style={
+        {
+          // animation: "moveBackground 60s linear infinite",
+        }
+      }
     >
       {/* <GlassFilter /> */}
 
@@ -214,7 +219,7 @@ export const Component = () => {
         <GlassDock icons={dockIcons} href="https://x.com/notsurajgaud" />
 
         <GlassButton href="https://x.com/notsurajgaud">
-          <div className="text-xl text-white">
+          <div className="text-xl dark:text-white text-slate-700">
             <p>How can i help you today?</p>
           </div>
         </GlassButton>
@@ -223,21 +228,4 @@ export const Component = () => {
   );
 };
 
-export const LiquidGlass = () => {
-  return (
-    <div>
-      <GlassEffect>
-        <GlassFilter />
-        <div
-          className="absolute inset-0 z-0 overflow-hidden rounded-inherit rounded-3xl"
-          style={{
-            backdropFilter: "blur(3px)",
-            filter: "url(#glass-distortion)",
-            isolation: "isolate",
-          }}
-        ></div>
-        <div>Hello</div>
-      </GlassEffect>
-    </div>
-  );
-};
+0;

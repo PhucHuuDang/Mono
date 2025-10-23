@@ -1,32 +1,21 @@
-"use client";
-
-import { PlateEditor } from "@/components/editor/plate-editor";
-import { Component, LiquidGlass } from "@/components/ui/liquid-glass";
-import { Button } from "@workspace/ui/components/button";
-import { useTheme } from "next-themes";
+import { EtheralShadow } from "@/components/ui/etheral-shadow";
+import Image from "next/image";
 
 export default function Page() {
-  const { setTheme } = useTheme();
-
   return (
-    <div className="flex items-center justify-center min-h-svh">
-      <div className="flex flex-col items-center justify-center gap-4">
-        <h1 className="text-2xl font-bold">Hello World</h1>
-
-        <Button size="sm" onClick={() => setTheme("dark")}>
-          Button
-        </Button>
-        <Button size="sm" onClick={() => setTheme("light")}>
-          Button
-        </Button>
-        <Button size="sm" onClick={() => setTheme("system")}>
-          Button
-        </Button>
-
-        <PlateEditor />
-
-        <Component />
-      </div>
+    <div className="h-screen w-full">
+      <EtheralShadow>
+        <h1 className="md:text-7xl text-6xl lg:text-8xl font-bold text-center text-foreground relative z-20 dark:text-white">
+          <Image
+            src="/logo.png"
+            alt="logos-devs"
+            width={100}
+            height={100}
+            className="w-full h-full object-cover"
+          />
+          Devs
+        </h1>
+      </EtheralShadow>
     </div>
   );
 }

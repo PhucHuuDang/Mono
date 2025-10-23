@@ -17,7 +17,8 @@
     "strict": true,
     "target": "ES2022",
     "paths": {
-      "@workspace/*": ["packages/*"]
+      "@workspace/*": ["packages/*"],
+      "@web/*": ["apps/web/*"]
     }
   }
 }

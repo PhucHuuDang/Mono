@@ -31,106 +31,115 @@ importers:
         version: 2.0.0(zod@3.25.76)
       '@ai-sdk/react':
         specifier: 2.0.28
-        version: 2.0.28(react@19.1.1)(zod@3.25.76)
+        version: 2.0.28(react@apps+web+@platejs+link+react)(zod@3.25.76)
       '@emoji-mart/data':
         specifier: 1.2.1
         version: 1.2.1
       '@faker-js/faker':
         specifier: ^10.1.0
         version: 10.1.0
+      '@fontsource/inter':
+        specifier: ^5.2.8
+        version: 5.2.8
       '@platejs/ai':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.2)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(typescript@5.9.2)
       '@platejs/autoformat':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/basic-nodes':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/basic-styles':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/callout':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/caption':
         specifier: ^51.0.0
-        version: 51.0.0(@types/react@19.1.9)(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(@types/react@19.1.9)(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/code-block':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/comment':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/date':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/dnd':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dnd-html5-backend@16.0.1)(react-dnd@16.0.1(@types/node@20.19.9)(@types/react@19.1.9)(react@19.1.1))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dnd-html5-backend@16.0.1)(react-dnd@16.0.1(@types/node@20.19.9)(@types/react@19.1.9)(react@apps+web+@platejs+link+react))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/docx':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/emoji':
         specifier: ^51.0.0
-        version: 51.0.0(@emoji-mart/data@1.2.1)(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(@emoji-mart/data@1.2.1)(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/indent':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/juice':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/layout':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/link':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/list':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/markdown':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.2)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(typescript@5.9.2)
       '@platejs/math':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/media':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/mention':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/selection':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/slash-command':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/suggestion':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/table':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/toc':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@platejs/toggle':
         specifier: ^51.0.0
-        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       '@uploadthing/react':
         specifier: 7.3.3
-        version: 7.3.3(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.51.0))(react@19.1.1)(uploadthing@7.7.4(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.51.0))(tailwindcss@4.1.11))
+        version: 7.3.3(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0))(react@apps+web+@platejs+link+react)(uploadthing@7.7.4(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0))(tailwindcss@4.1.11))
       '@workspace/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       ai:
         specifier: 5.0.28
         version: 5.0.28(zod@3.25.76)
+      class-variance-authority:
+        specifier: ^0.7.1
+        version: 0.7.1
       dedent:
         specifier: 1.0.0
         version: 1.0.0
+      framer-motion:
+        specifier: ^12.23.24
+        version: 12.23.24(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -139,28 +148,28 @@ importers:
         version: 3.3.0
       lucide-react:
         specifier: ^0.475.0
-        version: 0.475.0(react@19.1.1)
+        version: 0.475.0(react@apps+web+@platejs+link+react)
       next:
         specifier: ^15.4.5
-        version: 15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.51.0)
+        version: 15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0)
       next-themes:
         specifier: ^0.4.6
-        version: 0.4.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 0.4.6(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       platejs:
         specifier: ^51.0.0
-        version: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
+        version: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
       react:
-        specifier: ^19.1.1
-        version: 19.1.1
+        specifier: link:@platejs/link/react
+        version: link:@platejs/link/react
       react-dnd:
         specifier: ^16.0.1
-        version: 16.0.1(@types/node@20.19.9)(@types/react@19.1.9)(react@19.1.1)
+        version: 16.0.1(@types/node@20.19.9)(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
       react-dnd-html5-backend:
         specifier: ^16.0.1
         version: 16.0.1
       react-dom:
         specifier: ^19.1.1
-        version: 19.1.1(react@19.1.1)
+        version: 19.1.1(react@apps+web+@platejs+link+react)
       remark-gfm:
         specifier: ^4.0.1
         version: 4.0.1
@@ -169,10 +178,10 @@ importers:
         version: 6.0.0
       sonner:
         specifier: ^2.0.7
-        version: 2.0.7(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 2.0.7(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
       uploadthing:
         specifier: 7.7.4
-        version: 7.7.4(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.51.0))(tailwindcss@4.1.11)
+        version: 7.7.4(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0))(tailwindcss@4.1.11)
       zod:
         specifier: ^3.25.76
         version: 3.25.76
@@ -473,6 +482,9 @@ importers:
       lucide-react:
         specifier: ^0.475.0
         version: 0.475.0(react@19.1.1)
+      next:
+        specifier: ^15.4.5
+        version: 15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.51.0)
       next-themes:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -761,6 +773,9 @@ packages:
 
   '@floating-ui/utils@0.2.10':
     resolution: {integrity: sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==}
+
+  '@fontsource/inter@5.2.8':
+    resolution: {integrity: sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg==}
 
   '@hookform/resolvers@5.2.2':
     resolution: {integrity: sha512-A/IxlMLShx3KjV/HeTcTfaMxdwy690+L/ZADoeaTltLx+CVuzkeVIPuybK3jrRfw7YZnmdKsVVHAlEPIAEUNlA==}
@@ -3524,6 +3539,20 @@ packages:
     resolution: {integrity: sha512-PcOxmqwYCW7O2ovKRU8OoQQj2yqTfEB/yeTYk4gPid6dN5ODRfU1hXd9tTVZzax/0NkO7AxpHykvZnT1aYp/BQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
 
+  framer-motion@12.23.24:
+    resolution: {integrity: sha512-HMi5HRoRCTou+3fb3h9oTLyJGBxHfW+HnNE25tAXOvVx/IvwMHK0cx7IR4a2ZU6sh3IX1Z+4ts32PcYBOqka8w==}
+    peerDependencies:
+      '@emotion/is-prop-valid': '*'
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      '@emotion/is-prop-valid':
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+
   fs-extra@10.1.0:
     resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
     engines: {node: '>=12'}
@@ -4514,6 +4543,12 @@ packages:
     resolution: {integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==}
     engines: {node: '>=10'}
     hasBin: true
+
+  motion-dom@12.23.23:
+    resolution: {integrity: sha512-n5yolOs0TQQBRUFImrRfs/+6X4p3Q4n1dUEqt/H58Vx7OW6RF+foWEgmTVDhIWJIMXOuNNL0apKH2S16en9eiA==}
+
+  motion-utils@12.23.6:
+    resolution: {integrity: sha512-eAWoPgr4eFEOFfg2WjIsMoqJTW6Z8MTUCgn/GZ3VRpClWBdnbjryiA3ZSNLyxCTmCQx4RmYX6jX1iWHbenUPNQ==}
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -5932,6 +5967,16 @@ snapshots:
     optionalDependencies:
       zod: 3.25.76
 
+  '@ai-sdk/react@2.0.28(react@apps+web+@platejs+link+react)(zod@3.25.76)':
+    dependencies:
+      '@ai-sdk/provider-utils': 3.0.7(zod@3.25.76)
+      ai: 5.0.28(zod@3.25.76)
+      react: link:apps/web/@platejs/link/react
+      swr: 2.3.6(react@apps+web+@platejs+link+react)
+      throttleit: 2.1.0
+    optionalDependencies:
+      zod: 3.25.76
+
   '@alloc/quick-lru@5.2.0': {}
 
   '@ampproject/remapping@2.3.0':
@@ -6108,6 +6153,12 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@floating-ui/react-dom@2.1.6(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@floating-ui/dom': 1.7.4
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@floating-ui/react@0.27.16(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@floating-ui/react-dom': 2.1.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -6116,7 +6167,17 @@ snapshots:
       react-dom: 19.1.1(react@19.1.1)
       tabbable: 6.2.0
 
+  '@floating-ui/react@0.27.16(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@floating-ui/react-dom': 2.1.6(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      '@floating-ui/utils': 0.2.10
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+      tabbable: 6.2.0
+
   '@floating-ui/utils@0.2.10': {}
+
+  '@fontsource/inter@5.2.8': {}
 
   '@hookform/resolvers@5.2.2(react-hook-form@7.65.0(react@19.1.1))':
     dependencies:
@@ -6370,6 +6431,20 @@ snapshots:
       - supports-color
       - typescript
 
+  '@platejs/ai@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(typescript@5.9.2)':
+    dependencies:
+      '@platejs/markdown': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(typescript@5.9.2)
+      '@platejs/selection': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      '@platejs/suggestion': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      fastest-levenshtein: 1.0.16
+      lodash: 4.17.21
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+
   '@platejs/autoformat@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       lodash: 4.17.21
@@ -6377,11 +6452,24 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/autoformat@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      lodash: 4.17.21
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/basic-nodes@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/basic-nodes@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/basic-styles@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6389,11 +6477,23 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/basic-styles@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/callout@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/callout@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/caption@51.0.0(@types/react@19.1.9)(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6404,11 +6504,26 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
+  '@platejs/caption@51.0.0(@types/react@19.1.9)(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+      react-textarea-autosize: 8.5.9(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
+    transitivePeerDependencies:
+      - '@types/react'
+
   '@platejs/code-block@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/code-block@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/combobox@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6416,12 +6531,25 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/combobox@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/comment@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       lodash: 4.17.21
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/comment@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      lodash: 4.17.21
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/core@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))':
     dependencies:
@@ -6454,11 +6582,48 @@ snapshots:
       - scheduler
       - use-sync-external-store
 
+  '@platejs/core@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))':
+    dependencies:
+      '@platejs/slate': 49.2.21
+      '@udecode/react-hotkeys': 37.0.0(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      '@udecode/react-utils': 49.0.15(@types/react@19.1.9)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      '@udecode/utils': 47.2.7
+      clsx: 2.1.1
+      html-entities: 2.6.0
+      is-hotkey: 0.2.0
+      jotai: 2.8.4(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
+      jotai-optics: 0.4.0(jotai@2.8.4(@types/react@19.1.9)(react@apps+web+@platejs+link+react))(optics-ts@2.4.1)
+      jotai-x: 2.3.3(@types/react@19.1.9)(jotai@2.8.4(@types/react@19.1.9)(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      lodash: 4.17.21
+      nanoid: 5.1.6
+      optics-ts: 2.4.1
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+      slate: 0.118.1
+      slate-dom: 0.118.1(slate@0.118.1)
+      slate-hyperscript: 0.115.0(slate@0.118.1)
+      slate-react: 0.117.4(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(slate-dom@0.118.1(slate@0.118.1))(slate@0.118.1)
+      use-deep-compare: 1.3.0(react@apps+web+@platejs+link+react)
+      zustand: 5.0.8(@types/react@19.1.9)(immer@10.1.3)(react@apps+web+@platejs+link+react)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      zustand-x: 6.2.1(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(zustand@5.0.8(@types/react@19.1.9)(immer@10.1.3)(react@apps+web+@platejs+link+react)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))
+    transitivePeerDependencies:
+      - '@types/react'
+      - immer
+      - react-native
+      - scheduler
+      - use-sync-external-store
+
   '@platejs/date@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/date@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/diff@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6467,6 +6632,14 @@ snapshots:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/diff@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      diff-match-patch-ts: 0.6.0
+      lodash: 4.17.21
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/dnd@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dnd-html5-backend@16.0.1)(react-dnd@16.0.1(@types/node@20.19.9)(@types/react@19.1.9)(react@19.1.1))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6478,11 +6651,28 @@ snapshots:
       react-dnd-html5-backend: 16.0.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/dnd@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dnd-html5-backend@16.0.1)(react-dnd@16.0.1(@types/node@20.19.9)(@types/react@19.1.9)(react@apps+web+@platejs+link+react))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      lodash: 4.17.21
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      raf: 3.4.1
+      react: link:apps/web/@platejs/link/react
+      react-dnd: 16.0.1(@types/node@20.19.9)(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
+      react-dnd-html5-backend: 16.0.1
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/docx@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+      validator: 13.15.15
+
+  '@platejs/docx@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
       validator: 13.15.15
 
   '@platejs/emoji@51.0.0(@emoji-mart/data@1.2.1)(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
@@ -6492,6 +6682,14 @@ snapshots:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/emoji@51.0.0(@emoji-mart/data@1.2.1)(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@emoji-mart/data': 1.2.1
+      '@platejs/combobox': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/excalidraw@51.0.0(@types/react-dom@19.1.7(@types/react@19.1.9))(@types/react@19.1.9)(immer@10.1.3)(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6514,11 +6712,25 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/floating@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@floating-ui/core': 1.7.3
+      '@floating-ui/react': 0.27.16(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/indent@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/indent@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/juice@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6527,11 +6739,24 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/juice@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      juice: 11.0.3
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/layout@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/layout@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/link@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6540,6 +6765,13 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/link@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@platejs/floating': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/list@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@platejs/indent': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -6547,6 +6779,14 @@ snapshots:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/list@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@platejs/indent': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      clsx: 2.1.1
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/markdown@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.2)':
     dependencies:
@@ -6565,12 +6805,36 @@ snapshots:
       - supports-color
       - typescript
 
+  '@platejs/markdown@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(typescript@5.9.2)':
+    dependencies:
+      marked: 15.0.12
+      mdast-util-math: 3.0.0
+      mdast-util-mdx: 3.0.0
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+      remark-mdx: 3.1.1
+      remark-parse: 11.0.0
+      remark-stringify: 11.0.0
+      ts-essentials: 10.1.0(typescript@5.9.2)
+      unified: 11.0.5
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+
   '@platejs/math@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       katex: 0.16.22
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/math@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      katex: 0.16.22
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/media@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6579,6 +6843,13 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/media@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      js-video-url-parser: 0.5.1
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/mention@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@platejs/combobox': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -6586,11 +6857,24 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/mention@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@platejs/combobox': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/resizable@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/resizable@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/selection@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6599,12 +6883,26 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/selection@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      copy-to-clipboard: 3.3.3
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/slash-command@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@platejs/combobox': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/slash-command@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@platejs/combobox': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/slate@49.2.21':
     dependencies:
@@ -6622,6 +6920,14 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/suggestion@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@platejs/diff': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      lodash: 4.17.21
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/table@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@platejs/resizable': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -6630,11 +6936,25 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@platejs/table@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@platejs/resizable': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      lodash: 4.17.21
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@platejs/toc@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/toc@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/toggle@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -6643,6 +6963,14 @@ snapshots:
       platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  '@platejs/toggle@51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@platejs/indent': 51.0.0(platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)))(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      lodash: 4.17.21
+      platejs: 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   '@platejs/utils@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@19.1.1))':
     dependencies:
@@ -6654,6 +6982,23 @@ snapshots:
       lodash: 4.17.21
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+    transitivePeerDependencies:
+      - '@types/react'
+      - immer
+      - react-native
+      - scheduler
+      - use-sync-external-store
+
+  '@platejs/utils@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))':
+    dependencies:
+      '@platejs/core': 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      '@platejs/slate': 49.2.21
+      '@udecode/react-utils': 49.0.15(@types/react@19.1.9)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      '@udecode/utils': 47.2.7
+      clsx: 2.1.1
+      lodash: 4.17.21
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
     transitivePeerDependencies:
       - '@types/react'
       - immer
@@ -6810,6 +7155,12 @@ snapshots:
   '@radix-ui/react-compose-refs@1.1.2(@types/react@19.1.9)(react@19.1.1)':
     dependencies:
       react: 19.1.1
+    optionalDependencies:
+      '@types/react': 19.1.9
+
+  '@radix-ui/react-compose-refs@1.1.2(@types/react@19.1.9)(react@apps+web+@platejs+link+react)':
+    dependencies:
+      react: link:apps/web/@platejs/link/react
     optionalDependencies:
       '@types/react': 19.1.9
 
@@ -7370,6 +7721,13 @@ snapshots:
     dependencies:
       '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.9)(react@19.1.1)
       react: 19.1.1
+    optionalDependencies:
+      '@types/react': 19.1.9
+
+  '@radix-ui/react-slot@1.2.3(@types/react@19.1.9)(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
+      react: link:apps/web/@platejs/link/react
     optionalDependencies:
       '@types/react': 19.1.9
 
@@ -7945,6 +8303,11 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  '@udecode/react-hotkeys@37.0.0(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   '@udecode/react-utils@49.0.15(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@radix-ui/react-slot': 1.2.3(@types/react@19.1.9)(react@19.1.1)
@@ -7952,6 +8315,16 @@ snapshots:
       clsx: 2.1.1
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+    transitivePeerDependencies:
+      - '@types/react'
+
+  '@udecode/react-utils@49.0.15(@types/react@19.1.9)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)':
+    dependencies:
+      '@radix-ui/react-slot': 1.2.3(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
+      '@udecode/utils': 47.2.7
+      clsx: 2.1.1
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
     transitivePeerDependencies:
       - '@types/react'
 
@@ -7967,6 +8340,15 @@ snapshots:
       uploadthing: 7.7.4(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.51.0))(tailwindcss@4.1.11)
     optionalDependencies:
       next: 15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.51.0)
+
+  '@uploadthing/react@7.3.3(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0))(react@apps+web+@platejs+link+react)(uploadthing@7.7.4(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0))(tailwindcss@4.1.11))':
+    dependencies:
+      '@uploadthing/shared': 7.1.10
+      file-selector: 0.6.0
+      react: link:apps/web/@platejs/link/react
+      uploadthing: 7.7.4(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0))(tailwindcss@4.1.11)
+    optionalDependencies:
+      next: 15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0)
 
   '@uploadthing/shared@7.1.10':
     dependencies:
@@ -9164,6 +9546,15 @@ snapshots:
 
   fractional-indexing@3.2.0: {}
 
+  framer-motion@12.23.24(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react):
+    dependencies:
+      motion-dom: 12.23.23
+      motion-utils: 12.23.6
+      tslib: 2.8.1
+    optionalDependencies:
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   fs-extra@10.1.0:
     dependencies:
       graceful-fs: 4.2.11
@@ -9642,6 +10033,11 @@ snapshots:
       jotai: 2.8.4(@types/react@19.1.9)(react@19.1.1)
       optics-ts: 2.4.1
 
+  jotai-optics@0.4.0(jotai@2.8.4(@types/react@19.1.9)(react@apps+web+@platejs+link+react))(optics-ts@2.4.1):
+    dependencies:
+      jotai: 2.8.4(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
+      optics-ts: 2.4.1
+
   jotai-scope@0.7.2(jotai@2.11.0(@types/react@19.1.9)(react@19.1.1))(react@19.1.1):
     dependencies:
       jotai: 2.11.0(@types/react@19.1.9)(react@19.1.1)
@@ -9654,6 +10050,13 @@ snapshots:
       '@types/react': 19.1.9
       react: 19.1.1
 
+  jotai-x@2.3.3(@types/react@19.1.9)(jotai@2.8.4(@types/react@19.1.9)(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react):
+    dependencies:
+      jotai: 2.8.4(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
+    optionalDependencies:
+      '@types/react': 19.1.9
+      react: link:apps/web/@platejs/link/react
+
   jotai@2.11.0(@types/react@19.1.9)(react@19.1.1):
     optionalDependencies:
       '@types/react': 19.1.9
@@ -9663,6 +10066,11 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.1.9
       react: 19.1.1
+
+  jotai@2.8.4(@types/react@19.1.9)(react@apps+web+@platejs+link+react):
+    optionalDependencies:
+      '@types/react': 19.1.9
+      react: link:apps/web/@platejs/link/react
 
   js-tokens@4.0.0: {}
 
@@ -9834,6 +10242,10 @@ snapshots:
   lucide-react@0.475.0(react@19.1.1):
     dependencies:
       react: 19.1.1
+
+  lucide-react@0.475.0(react@apps+web+@platejs+link+react):
+    dependencies:
+      react: link:apps/web/@platejs/link/react
 
   magic-string@0.30.17:
     dependencies:
@@ -10514,6 +10926,12 @@ snapshots:
 
   mkdirp@3.0.1: {}
 
+  motion-dom@12.23.23:
+    dependencies:
+      motion-utils: 12.23.6
+
+  motion-utils@12.23.6: {}
+
   mri@1.2.0: {}
 
   ms@2.1.3: {}
@@ -10570,6 +10988,11 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
+  next-themes@0.4.6(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react):
+    dependencies:
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.51.0):
     dependencies:
       '@next/env': 15.4.5
@@ -10579,6 +11002,31 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
       styled-jsx: 5.1.6(react@19.1.1)
+    optionalDependencies:
+      '@next/swc-darwin-arm64': 15.4.5
+      '@next/swc-darwin-x64': 15.4.5
+      '@next/swc-linux-arm64-gnu': 15.4.5
+      '@next/swc-linux-arm64-musl': 15.4.5
+      '@next/swc-linux-x64-gnu': 15.4.5
+      '@next/swc-linux-x64-musl': 15.4.5
+      '@next/swc-win32-arm64-msvc': 15.4.5
+      '@next/swc-win32-x64-msvc': 15.4.5
+      '@opentelemetry/api': 1.9.0
+      sass: 1.51.0
+      sharp: 0.34.3
+    transitivePeerDependencies:
+      - '@babel/core'
+      - babel-plugin-macros
+
+  next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0):
+    dependencies:
+      '@next/env': 15.4.5
+      '@swc/helpers': 0.5.15
+      caniuse-lite: 1.0.30001731
+      postcss: 8.4.31
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+      styled-jsx: 5.1.6(react@apps+web+@platejs+link+react)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.4.5
       '@next/swc-darwin-x64': 15.4.5
@@ -10855,6 +11303,23 @@ snapshots:
       - scheduler
       - use-sync-external-store
 
+  platejs@51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)):
+    dependencies:
+      '@platejs/core': 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      '@platejs/slate': 49.2.21
+      '@platejs/utils': 51.0.0(@types/react@19.1.9)(immer@10.1.3)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+      '@udecode/react-hotkeys': 37.0.0(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      '@udecode/react-utils': 49.0.15(@types/react@19.1.9)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)
+      '@udecode/utils': 47.2.7
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+    transitivePeerDependencies:
+      - '@types/react'
+      - immer
+      - react-native
+      - scheduler
+      - use-sync-external-store
+
   player.style@0.2.0(react@19.1.1):
     dependencies:
       media-chrome: 4.13.1(react@19.1.1)
@@ -10964,9 +11429,26 @@ snapshots:
       '@types/node': 20.19.9
       '@types/react': 19.1.9
 
+  react-dnd@16.0.1(@types/node@20.19.9)(@types/react@19.1.9)(react@apps+web+@platejs+link+react):
+    dependencies:
+      '@react-dnd/invariant': 4.0.2
+      '@react-dnd/shallowequal': 4.0.2
+      dnd-core: 16.0.1
+      fast-deep-equal: 3.1.3
+      hoist-non-react-statics: 3.3.2
+      react: link:apps/web/@platejs/link/react
+    optionalDependencies:
+      '@types/node': 20.19.9
+      '@types/react': 19.1.9
+
   react-dom@19.1.1(react@19.1.1):
     dependencies:
       react: 19.1.1
+      scheduler: 0.26.0
+
+  react-dom@19.1.1(react@apps+web+@platejs+link+react):
+    dependencies:
+      react: link:apps/web/@platejs/link/react
       scheduler: 0.26.0
 
   react-hook-form@7.65.0(react@19.1.1):
@@ -11049,6 +11531,15 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
+  react-textarea-autosize@8.5.9(@types/react@19.1.9)(react@apps+web+@platejs+link+react):
+    dependencies:
+      '@babel/runtime': 7.28.4
+      react: link:apps/web/@platejs/link/react
+      use-composed-ref: 1.4.0(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
+      use-latest: 1.3.0(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
+    transitivePeerDependencies:
+      - '@types/react'
+
   react-tracked@1.7.14(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0):
     dependencies:
       proxy-compare: 2.6.0
@@ -11057,6 +11548,15 @@ snapshots:
       use-context-selector: 1.4.4(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0)
     optionalDependencies:
       react-dom: 19.1.1(react@19.1.1)
+
+  react-tracked@1.7.14(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0):
+    dependencies:
+      proxy-compare: 2.6.0
+      react: link:apps/web/@platejs/link/react
+      scheduler: 0.26.0
+      use-context-selector: 1.4.4(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)
+    optionalDependencies:
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   react-transition-group@4.4.5(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
     dependencies:
@@ -11404,6 +11904,19 @@ snapshots:
       slate-dom: 0.118.1(slate@0.118.1)
       tiny-invariant: 1.3.1
 
+  slate-react@0.117.4(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(slate-dom@0.118.1(slate@0.118.1))(slate@0.118.1):
+    dependencies:
+      '@juggle/resize-observer': 3.4.0
+      direction: 1.0.4
+      is-hotkey: 0.2.0
+      lodash: 4.17.21
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+      scroll-into-view-if-needed: 3.1.0
+      slate: 0.118.1
+      slate-dom: 0.118.1(slate@0.118.1)
+      tiny-invariant: 1.3.1
+
   slate@0.118.1:
     dependencies:
       immer: 10.1.3
@@ -11436,6 +11949,11 @@ snapshots:
     dependencies:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
+
+  sonner@2.0.7(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react):
+    dependencies:
+      react: link:apps/web/@platejs/link/react
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
 
   source-map-js@1.2.1: {}
 
@@ -11526,6 +12044,11 @@ snapshots:
       client-only: 0.0.1
       react: 19.1.1
 
+  styled-jsx@5.1.6(react@apps+web+@platejs+link+react):
+    dependencies:
+      client-only: 0.0.1
+      react: link:apps/web/@platejs/link/react
+
   stylis@4.3.6: {}
 
   super-media-element@1.4.2: {}
@@ -11550,6 +12073,12 @@ snapshots:
       dequal: 2.0.3
       react: 19.1.1
       use-sync-external-store: 1.6.0(react@19.1.1)
+
+  swr@2.3.6(react@apps+web+@platejs+link+react):
+    dependencies:
+      dequal: 2.0.3
+      react: link:apps/web/@platejs/link/react
+      use-sync-external-store: 1.6.0(react@apps+web+@platejs+link+react)
 
   tabbable@6.2.0: {}
 
@@ -11813,6 +12342,17 @@ snapshots:
       next: 15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.51.0)
       tailwindcss: 4.1.11
 
+  uploadthing@7.7.4(next@15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0))(tailwindcss@4.1.11):
+    dependencies:
+      '@effect/platform': 0.90.3(effect@3.17.7)
+      '@standard-schema/spec': 1.0.0-beta.4
+      '@uploadthing/mime-types': 0.3.6
+      '@uploadthing/shared': 7.1.10
+      effect: 3.17.7
+    optionalDependencies:
+      next: 15.4.5(@opentelemetry/api@1.9.0)(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(sass@1.51.0)
+      tailwindcss: 4.1.11
+
   upper-case-first@1.1.2:
     dependencies:
       upper-case: 1.1.3
@@ -11836,6 +12376,12 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.1.9
 
+  use-composed-ref@1.4.0(@types/react@19.1.9)(react@apps+web+@platejs+link+react):
+    dependencies:
+      react: link:apps/web/@platejs/link/react
+    optionalDependencies:
+      '@types/react': 19.1.9
+
   use-context-selector@1.4.4(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(scheduler@0.26.0):
     dependencies:
       react: 19.1.1
@@ -11843,10 +12389,22 @@ snapshots:
     optionalDependencies:
       react-dom: 19.1.1(react@19.1.1)
 
+  use-context-selector@1.4.4(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0):
+    dependencies:
+      react: link:apps/web/@platejs/link/react
+      scheduler: 0.26.0
+    optionalDependencies:
+      react-dom: 19.1.1(react@apps+web+@platejs+link+react)
+
   use-deep-compare@1.3.0(react@19.1.1):
     dependencies:
       dequal: 2.0.3
       react: 19.1.1
+
+  use-deep-compare@1.3.0(react@apps+web+@platejs+link+react):
+    dependencies:
+      dequal: 2.0.3
+      react: link:apps/web/@platejs/link/react
 
   use-file-picker@2.1.2(react@19.1.1):
     dependencies:
@@ -11859,10 +12417,23 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.1.9
 
+  use-isomorphic-layout-effect@1.2.1(@types/react@19.1.9)(react@apps+web+@platejs+link+react):
+    dependencies:
+      react: link:apps/web/@platejs/link/react
+    optionalDependencies:
+      '@types/react': 19.1.9
+
   use-latest@1.3.0(@types/react@19.1.9)(react@19.1.1):
     dependencies:
       react: 19.1.1
       use-isomorphic-layout-effect: 1.2.1(@types/react@19.1.9)(react@19.1.1)
+    optionalDependencies:
+      '@types/react': 19.1.9
+
+  use-latest@1.3.0(@types/react@19.1.9)(react@apps+web+@platejs+link+react):
+    dependencies:
+      react: link:apps/web/@platejs/link/react
+      use-isomorphic-layout-effect: 1.2.1(@types/react@19.1.9)(react@apps+web+@platejs+link+react)
     optionalDependencies:
       '@types/react': 19.1.9
 
@@ -11878,9 +12449,17 @@ snapshots:
     dependencies:
       react: 19.1.1
 
+  use-sync-external-store@1.4.0(react@apps+web+@platejs+link+react):
+    dependencies:
+      react: link:apps/web/@platejs/link/react
+
   use-sync-external-store@1.6.0(react@19.1.1):
     dependencies:
       react: 19.1.1
+
+  use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react):
+    dependencies:
+      react: link:apps/web/@platejs/link/react
 
   util-deprecate@1.0.2: {}
 
@@ -12056,6 +12635,20 @@ snapshots:
       - react-native
       - scheduler
 
+  zustand-x@6.2.1(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)(zustand@5.0.8(@types/react@19.1.9)(immer@10.1.3)(react@apps+web+@platejs+link+react)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))):
+    dependencies:
+      immer: 10.1.3
+      lodash.mapvalues: 4.6.0
+      mutative: 1.1.0
+      react-tracked: 1.7.14(react-dom@19.1.1(react@apps+web+@platejs+link+react))(react@apps+web+@platejs+link+react)(scheduler@0.26.0)
+      use-sync-external-store: 1.4.0(react@apps+web+@platejs+link+react)
+      zustand: 5.0.8(@types/react@19.1.9)(immer@10.1.3)(react@apps+web+@platejs+link+react)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react))
+    transitivePeerDependencies:
+      - react
+      - react-dom
+      - react-native
+      - scheduler
+
   zustand@4.5.7(@types/react@19.1.9)(immer@10.1.3)(react@19.1.1):
     dependencies:
       use-sync-external-store: 1.6.0(react@19.1.1)
@@ -12070,5 +12663,12 @@ snapshots:
       immer: 10.1.3
       react: 19.1.1
       use-sync-external-store: 1.6.0(react@19.1.1)
+
+  zustand@5.0.8(@types/react@19.1.9)(immer@10.1.3)(react@apps+web+@platejs+link+react)(use-sync-external-store@1.6.0(react@apps+web+@platejs+link+react)):
+    optionalDependencies:
+      '@types/react': 19.1.9
+      immer: 10.1.3
+      react: link:apps/web/@platejs/link/react
+      use-sync-external-store: 1.6.0(react@apps+web+@platejs+link+react)
 
   zwitch@2.0.4: {}

@@ -13,7 +13,7 @@ import {
   EmojiPicker,
   EmojiPopover,
 } from "@workspace/ui/components/emoji-toolbar-button";
-
+  
 export function CalloutElement({
   attributes,
   children,

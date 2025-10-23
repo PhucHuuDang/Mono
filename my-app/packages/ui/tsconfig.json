@@ -22,8 +22,21 @@
       "@workspace/ui/hooks/*": ["./src/hooks/*"],
       "@workspace/ui/plugins/*": ["./src/plugins/*"],
       "@workspace/ui/styles/*": ["./src/styles/*"],
-      "@web/hooks/*": ["../../apps/web/hooks/*"]
-    }
+      "@web/hooks/*": ["../../apps/web/hooks/*"],
+      "@web/*": ["../../apps/web/*"]
+    },
+
+    "resolveJsonModule": true,
+    "allowJs": true
   },
+  "include": [
+    "src",
+    "src/types",
+    "**/*.png",
+    "**/*.svg",
+    "**/*.jpg",
+    "**/*.jpeg"
+  ],
+
   "iconLibrary": "lucide"
 }
